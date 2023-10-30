@@ -29,6 +29,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        int nama;
+
+        System.out.println("Nama : ");
+        nama = input.nextInt();
+
+
         System.out.println("Kalkulator Indeks Massa Tubuh (BMI)");
         System.out.print("Masukkan berat badan (kg): ");
         double beratBadan = input.nextDouble();
